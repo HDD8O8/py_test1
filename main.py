@@ -7,6 +7,10 @@ class Main:
         label = tk.Label(self.root, text="Hallo Henning", font=("Arial", 16))
         label.pack(padx=20, pady=20)
         self.root.mainloop()
+    
+    def hallo_sagen(self):
+        print("Hallo!")
 
+# This is a simple GUI application using tkinter that displays "Hallo Henning" in a window.
 if __name__ == "__main__":
     Main()
